@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    display: grid;
+    grid-template-areas: "header header header"
+        "contatos perfil designer"
+        "contatos sobre designer"
+        "contatos habilidades designer"
+        "contatos projetos designer"
+        "footer footer footer";
+    grid-template-columns: 8% auto 10%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d1d3db;
+}
+
+
+.header {
+    /* background-color: aquamarine; */
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
+}
+
+.contatos {
+    /* background-color: beige; */
+    grid-area: contatos;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
+}
+
+.contatos ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 0px 50px;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.perfil {
+    grid-area: perfil;
+    height: 89vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.perfil .wellcome {
+    font-size: 40px;
+    padding: 70px 50px;
+    text-align: end;
+    color: #25272a;
+    font-weight: 500;
+}
+
+.perfil .foto-perfil {
+
+}
+
+.perfil .sobra-foto-perfil {
+    background-color: #9197a793;
+    position: relative;
+    width: 455px; 
+    height: 580px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.perfil .sobra-foto-perfil img {
+    position: relative;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.perfil .nome-dev {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.perfil .nome-dev .nome {
+    font-size: 50px;
+    text-align: center;
+    color: #25272a;
+}
+
+.perfil .nome-dev .dev {
+    font-size: 40px;
+    text-align: center;
+    color: #25272a;
+    font-weight: 500;
+}
+
+.designer {
+    /* background-color: aqua; */
+    grid-area: designer;
+}
+
+.sobre {
+    background-color: blueviolet;
+    grid-area: sobre;
+}
+
+.habilidades {
+    background-color: burlywood;
+    grid-area: habilidades;
+}
+
+.projetos {
+    background-color: coral;
+    grid-area: projetos;
+}
+
+.footer {
+    background-color: yellowgreen;
+    grid-area: footer;
+}
