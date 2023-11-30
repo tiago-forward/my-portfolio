@@ -10,7 +10,7 @@ body {
         "footer footer footer";
     grid-template-columns: 8% auto 10%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #d1d3db;
+    background-color: var(--cor-background);
 }
 
 
@@ -22,7 +22,7 @@ body {
     gap: 30px;
     padding-left: 40px;
     padding-top: 10px;
-    background-color: #ffffff;
+    background-color: var(--cor-branca);
     box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
 }
 
@@ -43,12 +43,12 @@ body {
 }
 
 .contatos li a i{
-    color: #25272a;
+    color: var(--cor-primaria);
 }
 
 .contatos ul li a i:hover {
     cursor: pointer;
-    color: #0064C2;
+    color: var(--cor-secundaria);
 }
 
 .perfil {
@@ -62,7 +62,7 @@ body {
     font-size: 40px;
     padding: 70px 50px;
     text-align: end;
-    color: #25272a;
+    color: var(--cor-primaria);
     font-weight: 500;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 .perfil .sobra-foto-perfil {
-    background-color: #9197a793;
+    background-color: var(--cor-background-perfil);
     position: relative;
     width: 455px; 
     height: 580px;
@@ -97,13 +97,13 @@ body {
 .perfil .nome-dev .nome {
     font-size: 50px;
     text-align: center;
-    color: #25272a;
+    color: var(--cor-primaria);
 }
 
 .perfil .nome-dev .dev {
     font-size: 40px;
     text-align: center;
-    color: #25272a;
+    color: var(--cor-primaria);
     font-weight: 500;
 }
 
