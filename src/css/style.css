@@ -42,6 +42,15 @@ body {
     font-size: 30px;
 }
 
+.contatos li a i{
+    color: #25272a;
+}
+
+.contatos ul li a i:hover {
+    cursor: pointer;
+    color: #0064C2;
+}
+
 .perfil {
     grid-area: perfil;
     height: 89vh;
