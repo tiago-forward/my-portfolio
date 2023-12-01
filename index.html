@@ -4,20 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variable.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/fonts/fontawesome/css/all.min.css">
     <title>My first portfolio</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="logo-forward">
-            <img src="src/images/0722616b57ef45499c09a60ea74c1286-WEB-MAINLOGO-b.png" alt=" logo tiago forward" width="90px" height="90px">
-        </div>
-        <div class="titulo">
-            <h1>Tiago Forward</h1>
+        <div class="container">
+            <div class="row">
+                <a href="#">
+                    <img class="logo" src="src/images/0722616b57ef45499c09a60ea74c1286-WEB-MAINLOGO-b.png" alt=" logo tiago forward" width="90px" height="90px">
+                    <h1 class="titulo">Tiago Forward</h1>
+                </a>
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox">
+
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>    
         </div>
     </header>
 
