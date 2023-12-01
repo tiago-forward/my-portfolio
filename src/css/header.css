@@ -1,0 +1,38 @@
+.header {
+    background-color: var(--cor-branca);
+    grid-area: header;
+    padding: 15px;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
+}
+
+.row a {
+    display: flex;
+    align-items: center;
+    color: var(-cor-primaria);
+}
+
+.header .titulo {
+    transition: 0.2s;
+}
+
+.header a:hover .titulo {
+    color: var(--cor-secundaria);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.header nav li a:hover {
+    color: var(--cor-secundaria);
+}
