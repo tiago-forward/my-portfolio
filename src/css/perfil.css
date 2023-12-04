@@ -12,8 +12,12 @@
     color: var(--cor-primaria);
     font-weight: 500;
 }
+.perfil .foto-perfil {
+    display: flex;
+    justify-content: center;
+}
 
-.perfil .sobra-foto-perfil {
+.perfil .foto-perfil .sobra-foto-perfil {
     background-color: var(--cor-background-perfil);
     position: relative;
     width: 455px; 
@@ -22,7 +26,7 @@
     margin-top: 60px;
 }
 
-.perfil .sobra-foto-perfil img {
+.perfil .foto-perfil .sobra-foto-perfil img {
     position: relative;
     border-radius: 50px;
     margin: 50px;
@@ -43,4 +47,44 @@
     text-align: center;
     color: var(--cor-primaria);
     font-weight: 500;
+}
+
+@media (max-width: 1340px) {
+    .perfil .foto-perfil .sobra-foto-perfil {
+        width: 355px; 
+        height: 480px;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil img {
+        width: 355px;
+        height: 480px;
+        margin: 40px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .perfil {
+        flex-direction: column;
+    }
+
+    .perfil .wellcome {
+        padding: 60px 0 0 0;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil {
+        width: 300px; 
+        height: 380px;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil img {
+        width: 300px;
+        height: 380px;
+        margin: 30px;
+    }
+
+    .perfil .nome-dev {
+        margin-top: 60px;
+    }
 }
