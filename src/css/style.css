@@ -11,6 +11,12 @@ body {
     background-color: var(--cor-background);
 }
 
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
 .designer {
     grid-area: designer;
     display: flex;
@@ -73,7 +79,6 @@ body {
 }
 
 .sobre {
-    background-color: blueviolet;
     grid-area: sobre;
 }
 
