@@ -16,12 +16,12 @@
     align-items: center;
 }
 
-.header .titulo {
+.header .logo-titulo {
     transition: 0.2s;
     user-select: none;
 }
 
-.header a:hover .titulo {
+.header a:hover .logo-titulo {
     color: var(--cor-secundaria);
 }
 
