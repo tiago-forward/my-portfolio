@@ -26,12 +26,41 @@
     text-align: center;
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 900px) {
     .sobre .sobre-container {
         flex-direction: column;
     }
 
     .sobre .sobre-container .sobre-image {
         margin-bottom: 60px;
+    }
+
+    .sobre .sobre-container .sobre-image img {
+        width: 550px;
+    }
+
+    .sobre .sobre-container .sobre-conteudo {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre .sobre-container .sobre-image img {
+        width: 250px;
+    }
+
+    .sobre .sobre-container .sobre-conteudo {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .sobre .sobre-container .sobre-image img {
+        width: 200px;
+    }
+
+    .sobre .sobre-container .sobre-conteudo {
+        width: 200px;
     }
 }
