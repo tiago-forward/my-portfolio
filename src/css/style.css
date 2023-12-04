@@ -14,45 +14,23 @@ body {
 .designer {
     grid-area: designer;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .designer .lado {
-    position: absolute;
-    width: 350px;
-    top: 500px;
     text-align: center;
-    right: -100px;
     transform: rotate(90deg);
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.designer .lado {
-    position: absolute;
-    width: 350px;
-    top: 500px;
-    text-align: center;
-    right: -100px;
-    transform: rotate(90deg);
-    display: flex;
-    justify-content: space-between;
-}
-
-.designer .lado-perfil {
-    top: 70vh;
-}
-
-.designer .lado-sobre {
-    top: 155vh;
-}
-
-.designer .lado-habilidades {
-    top: 230vh;
-}
-
-.designer .lado-projetos {
-    top: 310vh;
+.designer .linha-lado {
+    display: inline-block;
+    width: 130px;
+    border-top: 1px solid #000;
+    vertical-align: middle;
+    margin: 0 10px;
 }
 
 .contatos {
