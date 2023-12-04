@@ -1,6 +1,6 @@
 .perfil {
     grid-area: perfil;
-    height: 89vh;
+    height: 100vh;
     display: flex;
     margin: 0 auto;
 }
@@ -20,7 +20,6 @@
     height: 580px;
     border-radius: 50px;
     margin-top: 60px;
-
 }
 
 .perfil .sobra-foto-perfil img {
