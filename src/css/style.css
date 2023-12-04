@@ -13,6 +13,8 @@ body {
 
 .designer {
     grid-area: designer;
+    display: flex;
+    justify-content: space-around;
 }
 
 .designer .lado {
@@ -24,6 +26,33 @@ body {
     transform: rotate(90deg);
     display: flex;
     justify-content: space-between;
+}
+
+.designer .lado {
+    position: absolute;
+    width: 350px;
+    top: 500px;
+    text-align: center;
+    right: -100px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: space-between;
+}
+
+.designer .lado-perfil {
+    top: 70vh;
+}
+
+.designer .lado-sobre {
+    top: 155vh;
+}
+
+.designer .lado-habilidades {
+    top: 230vh;
+}
+
+.designer .lado-projetos {
+    top: 310vh;
 }
 
 .contatos {
