@@ -30,7 +30,7 @@ body {
     transform: rotate(90deg);
     display: flex;
     align-items: center;
-    width: 200px;
+    margin-left: -20px;
 }
 
 .designer .linha-lado {
@@ -38,7 +38,7 @@ body {
     width: 130px;
     border-top: 1px solid #000;
     vertical-align: baseline;
-    margin: 0 5px;
+    margin: 10px 5px;
 }
 
 .contatos {
