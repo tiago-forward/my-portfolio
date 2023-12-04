@@ -11,6 +11,21 @@ body {
     background-color: var(--cor-background);
 }
 
+.designer {
+    grid-area: designer;
+}
+
+.designer .lado {
+    position: absolute;
+    width: 350px;
+    top: 500px;
+    text-align: center;
+    right: -100px;
+    transform: rotate(90deg);
+    display: flex;
+    justify-content: space-between;
+}
+
 .contatos {
     /* background-color: beige; */
     grid-area: contatos;
@@ -36,10 +51,6 @@ body {
     color: var(--cor-secundaria);
 }
 
-.designer {
-    background-color: aqua;
-    grid-area: designer;
-}
 
 .sobre {
     background-color: blueviolet;
