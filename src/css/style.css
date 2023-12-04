@@ -11,11 +11,6 @@ body {
     background-color: var(--cor-background);
 }
 
-.row {
-    display: flex;
-    justify-content: space-between;
-}
-
 .contatos {
     /* background-color: beige; */
     grid-area: contatos;
@@ -98,7 +93,7 @@ body {
 }
 
 .designer {
-    /* background-color: aqua; */
+    background-color: aqua;
     grid-area: designer;
 }
 

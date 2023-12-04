@@ -1,18 +1,24 @@
 .header {
     background-color: var(--cor-branca);
     grid-area: header;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
 }
 
-.row a {
+.header .row {
     display: flex;
     align-items: center;
-    color: var(-cor-primaria);
+    justify-content: space-between;
+}
+
+.header .row a {
+    display: flex;
+    align-items: center;
 }
 
 .header .titulo {
     transition: 0.2s;
+    user-select: none;
 }
 
 .header a:hover .titulo {
@@ -23,16 +29,19 @@
     display: flex;
 }
 
-.header nav li a {
+.header nav ul li a {
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
-    padding: 10px 20px;
+    padding: 10px 15px;
+    margin-left: 10px;
     transition: 0.2s;
+    border-radius: 50px;
     letter-spacing: 1px;
     user-select: none;
 }
 
-.header nav li a:hover {
+.header nav ul li a:hover {
     color: var(--cor-secundaria);
+    background-color: var(--cor-background);
 }
