@@ -6,7 +6,7 @@ body {
         "contatos habilidades designer"
         "contatos projetos designer"
         "footer footer footer";
-    grid-template-columns: 8% auto 10%;
+    grid-template-columns: 8% auto 8%;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cor-background);
 }
@@ -15,7 +15,8 @@ body {
     grid-area: designer;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    margin-top: 400px;
+    gap: 500px;
 }
 
 .designer .lado {
@@ -23,14 +24,15 @@ body {
     transform: rotate(90deg);
     display: flex;
     align-items: center;
+    width: 200px;
 }
 
 .designer .linha-lado {
     display: inline-block;
     width: 130px;
     border-top: 1px solid #000;
-    vertical-align: middle;
-    margin: 0 10px;
+    vertical-align: baseline;
+    margin: 0 5px;
 }
 
 .contatos {
