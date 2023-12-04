@@ -37,7 +37,7 @@ body {
     /* background-color: beige; */
     grid-area: contatos;
     border-radius: 10px;
-    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.1);
 }
 
 .contatos ul {
@@ -49,15 +49,26 @@ body {
     font-size: 30px;
 }
 
-.contatos li a i{
+.contatos li a i {
     color: var(--cor-primaria);
+    transition: all 0.3s ease;
 }
 
 .contatos ul li a i:hover {
     cursor: pointer;
     color: var(--cor-secundaria);
+    animation: movimentacao 4s linear infinite;
 }
 
+@keyframes movimentacao {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+}
 
 .sobre {
     background-color: blueviolet;
