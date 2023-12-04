@@ -52,7 +52,8 @@ body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 0px 50px;
+    padding-top: 25vh;
+    margin-left: 20px;
     gap: 30px;
     font-size: 30px;
 }
