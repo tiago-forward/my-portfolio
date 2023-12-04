@@ -1,0 +1,22 @@
+.sobre .title {
+    margin-bottom: 60px;
+}
+
+.sobre .sobre-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sobre .sobre-container .sobre-image {
+    padding: 0px 50px;
+}
+
+.sobre .sobre-container .sobre-conteudo {
+    width: 900px;
+}
+
+.sobre .sobre-container .sobre-conteudo p {
+    font-size: 25px;
+    text-align: center;
+}
