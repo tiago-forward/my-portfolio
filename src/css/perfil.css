@@ -1,0 +1,51 @@
+.perfil {
+    grid-area: perfil;
+    height: 89vh;
+    display: flex;
+    margin: 0 auto;
+}
+
+.perfil .wellcome {
+    font-size: 40px;
+    padding: 70px 50px;
+    text-align: end;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+
+.perfil .sobra-foto-perfil {
+    background-color: var(--cor-background-perfil);
+    position: relative;
+    width: 455px; 
+    height: 580px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.perfil .sobra-foto-perfil img {
+    position: relative;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.perfil .nome-dev {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.perfil .nome-dev .nome {
+    font-size: 50px;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.perfil .nome-dev .dev {
+    font-size: 40px;
+    text-align: center;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
