@@ -5,11 +5,16 @@
 .sobre .sobre-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 60px;
 }
 
 .sobre .sobre-container .sobre-image {
     padding: 0px 50px;
+}
+
+.sobre .sobre-container .sobre-image img {
+    min-width: 100%;
 }
 
 .sobre .sobre-container .sobre-conteudo {
@@ -19,4 +24,14 @@
 .sobre .sobre-container .sobre-conteudo p {
     font-size: 25px;
     text-align: center;
+}
+
+@media (max-width: 1340px) {
+    .sobre .sobre-container {
+        flex-direction: column;
+    }
+
+    .sobre .sobre-container .sobre-image {
+        margin-bottom: 60px;
+    }
 }
