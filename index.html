@@ -21,28 +21,22 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="row">
+        <nav class="nav-bar">
+            <div class="logo">
                 <a href="#">
-                    <img class="logo" src="src/images/logo.png" alt=" logo tiago forward" width="90px" height="90px">
+                    <img class="logo-image" src="src/images/logo.png" alt=" logo tiago forward" width="90px"
+                        height="90px">
                     <h1 class="logo-titulo">Tiago Forward</h1>
                 </a>
-                <nav>
-                    <input id="menu-hamburguer" type="checkbox">
-
-                    <label for="menu-hamburguer">
-                        <div class="menu">
-                            <span class="hamburguer"></span>
-                        </div>
-                    </label>
-                    <ul>
-                        <li><a href="#sobre-mim">Sobre mim</a></li>
-                        <li><a href="#minhas-habilidades">Habilidades</a></li>
-                        <li><a href="#meus-projetos">Meus projetos</a></li>
-                    </ul>
-                </nav>
-            </div>    
-        </div>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#sobre-mim" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#minhas-habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#meus-projetos" class="nav-link">Meus projetos</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section class="contatos">
@@ -89,22 +83,22 @@
 
     <section class="designer">
         <div class="lado">
-            
+
             <span class="linha-lado"></span>
             PERFIL
         </div>
         <div class="lado">
-            
+
             <span class="linha-lado"></span>
             SOBRE
         </div>
         <div class="lado">
-            
+
             <span class="linha-lado"></span>
             HABILIDADES
         </div>
         <div class="lado">
-            
+
             <span class="linha-lado"></span>
             PROJETOS
         </div>
@@ -117,25 +111,77 @@
                 <img src="src/images/setup.jpeg" alt="setup de trabalho" width="660">
             </div>
             <div class="sobre-conteudo">
-                <p><strong>Sou apaixonado por computadores desde os meus 12 anos</strong>. Desde então, sempre me encantei ao ver um site bonito e bem estilizado na web, entre outros layouts. Durante minha formação em Análise e Desenvolvimento de Sistemas, tive a oportunidade de conhecer a programação, e a área de front-end tem se tornado cada vez mais apaixonante para mim. Quero me tornar um bom programador e estou sempre aberto, buscando adquirir novos conhecimentos.</p>
+                <p><strong>Sou apaixonado por computadores desde os meus 12 anos</strong>. Desde então, sempre me
+                    encantei ao ver um site bonito e bem estilizado na web, entre outros layouts. Durante minha formação
+                    em Análise e Desenvolvimento de Sistemas, tive a oportunidade de conhecer a programação, e a área de
+                    front-end tem se tornado cada vez mais apaixonante para mim. Quero me tornar um bom programador e
+                    estou sempre aberto, buscando adquirir novos conhecimentos.</p>
             </div>
         </div>
     </section>
 
     <section class="habilidades" id="minhas-habilidades">
         <h2 class="title">Habilidades</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
     </section>
 
     <section class="projetos" id="meus-projetos">
         <h2 class="title">Projetos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus. Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure rerum explicabo vero aliquid dolorem. Ad
+            laboriosam nam modi provident. Quis sed illum, reiciendis provident aut tempora tempore odio voluptatibus
+            rerum?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam tempore ut modi labore repellendus.
+            Temporibus molestiae in ea dignissimos laborum aspernatur quam odio nam, beatae similique? Iste beatae velit
+            tenetur?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente qui vel ipsam nulla repellendus
+            deserunt natus dicta. Repudiandae ipsam dolore libero aut modi ratione, facere incidunt culpa non odit
+            porro.</p>
     </section>
 
     <footer class="footer">
