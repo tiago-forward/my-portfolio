@@ -41,6 +41,24 @@ body {
     margin: 10px 5px;
 }
 
+@media (max-width: 1340px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px) {
+    
+}
+
 .contatos {
     /* background-color: beige; */
     grid-area: contatos;

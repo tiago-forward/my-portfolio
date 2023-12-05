@@ -7,7 +7,7 @@
 
 .perfil .wellcome {
     font-size: 40px;
-    padding: 70px 50px;
+    padding: 70px 0px 0 0;
     text-align: end;
     color: var(--cor-primaria);
     font-weight: 500;
@@ -50,19 +50,33 @@
 }
 
 @media (max-width: 1340px) {
+
+    .perfil {
+        flex-direction: column;
+    }
+    
+    .perfil .wellcome {
+        font-size: 33px;
+    }
+
+    .perfil .nome-dev {
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+
     .perfil .foto-perfil .sobra-foto-perfil {
-        width: 355px; 
-        height: 480px;
+        width: 300px; 
+        height: 380px;
     }
 
     .perfil .foto-perfil .sobra-foto-perfil img {
-        width: 355px;
-        height: 480px;
+        width: 300px;
+        height: 380px;
         margin: 40px;
     }
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 1024) {
     .perfil {
         flex-direction: column;
     }
@@ -87,4 +101,32 @@
     .perfil .nome-dev {
         margin-top: 60px;
     }
+}
+
+@media (max-width: 768px) {
+    .perfil .wellcome {
+        margin-top: 60px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil {
+        width: 190px; 
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil img {
+        width: 190px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .perfil .nome-dev .dev {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    
 }
