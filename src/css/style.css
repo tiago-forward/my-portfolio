@@ -21,8 +21,8 @@ body {
     grid-area: designer;
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
-    gap: 500px;
+    margin-top: 300px;
+    justify-content: space-between;
 }
 
 .designer .lado {
