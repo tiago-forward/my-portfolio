@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--cor-branca);
+    background-color: var(--cor-primaria);
     grid-area: header;
     padding: 10px;
     box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.2);
@@ -14,6 +14,7 @@
 .header .nav-bar .logo a {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .header .nav-bar .logo a .logo-image {
@@ -23,6 +24,7 @@
 .header .nav-bar .logo .logo-titulo {
     transition: 0.2s;
     user-select: none;
+    color: var(--cor-branca);
 }
 
 .header .nav-bar .logo a:hover .logo-titulo {
@@ -34,6 +36,7 @@
 }
 
 .header .nav-bar .nav-list ul .nav-item .nav-link {
+    color: var(--cor-branca);
     text-transform: capitalize;
     font-size: 20px;
     font-weight: 500;
@@ -58,6 +61,7 @@
     display: none;
     background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
+    top: 77px;
     right: 0;
     width: 50vw;
     height: 100vh;
