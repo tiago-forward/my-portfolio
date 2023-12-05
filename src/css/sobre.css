@@ -10,7 +10,7 @@
 }
 
 .sobre .sobre-container .sobre-image {
-    padding: 0px 50px;
+    padding: 0px 20px;
 }
 
 .sobre .sobre-container .sobre-image img {
@@ -18,7 +18,7 @@
 }
 
 .sobre .sobre-container .sobre-conteudo {
-    width: 900px;
+    max-width: 500px;
 }
 
 .sobre .sobre-container .sobre-conteudo p {
@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
     .sobre .sobre-container {
         flex-direction: column;
     }
