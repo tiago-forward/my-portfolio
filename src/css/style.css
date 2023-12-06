@@ -104,11 +104,6 @@ body {
     grid-area: sobre;
 }
 
-.habilidades {
-    background-color: burlywood;
-    grid-area: habilidades;
-}
-
 .projetos {
     background-color: coral;
     grid-area: projetos;
