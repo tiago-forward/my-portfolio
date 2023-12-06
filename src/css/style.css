@@ -106,11 +106,6 @@ body {
     grid-area: sobre;
 }
 
-.projetos {
-    background-color: coral;
-    grid-area: projetos;
-}
-
 .footer {
     background-color: yellowgreen;
     grid-area: footer;

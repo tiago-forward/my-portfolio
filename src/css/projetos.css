@@ -1,0 +1,42 @@
+.projetos {
+    grid-area: projetos;
+    margin: 0 auto;
+}
+
+.projetos .title {
+    margin-bottom: 150px;
+}
+
+.projetos .projetos-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(210px, 1fr));
+    grid-gap: 80px;
+}
+
+.projetos .projetos-container .projeto {
+    cursor: pointer;
+}
+
+@media (max-width: 1340px) {
+    .projetos .projetos-container {
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+    }
+}
+
+@media (max-width: 1024px) {
+    .projetos .projetos-container {
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .projetos .projetos-container {
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+
+@media (max-width: 375px) {
+    .projetos .projetos-container {
+        grid-template-columns: repeat(1, 230px);
+    }
+}
