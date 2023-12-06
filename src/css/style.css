@@ -59,10 +59,6 @@ body {
     }
 }
 
-@media (max-width: 375px) {
-    
-}
-
 .contatos {
     /* background-color: beige; */
     grid-area: contatos;
@@ -97,6 +93,12 @@ body {
 
     25% {
         transform: translateX(5px);
+    }
+}
+
+@media (max-width: 375px) {
+    .contatos li a i {
+        font-size: 23px;
     }
 }
 
