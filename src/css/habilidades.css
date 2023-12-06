@@ -1,5 +1,6 @@
 .habilidades {
     grid-area: habilidades;
+    margin: 0 auto;
 }
 
 .habilidades .title {
@@ -20,7 +21,7 @@
     max-width: 400px;
     padding: 18px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
-    margin: 28px;
+    margin: 28px 0;
     transition: all 0.3s ease;
     z-index: 0;
 }
@@ -62,6 +63,20 @@
     color: var(--cor-secundaria);
 }
 
-.habilidades .habilidades-container .informacoes P{
+.habilidades .habilidades-container .informacoes p{
     font-size: 20px;
+}
+
+@media (max-width: 375px) {
+    .habilidades .habilidades-container {
+        width: 250px;
+    }
+
+    .habilidades .habilidades-container .informacoes h3 {
+        font-size: 30px;
+    }
+
+    .habilidades .habilidades-container .informacoes p {
+        font-size: 15px;
+    }
 }
