@@ -45,6 +45,10 @@
     margin-right: 15px;
 }
 
+.header .nav-bar .nav-list ul .nav-item .nav-link:active {
+    color: var(--cor-click-active);
+}
+
 .header .nav-bar .nav-list ul .nav-link::after {
     content: '';
     position: absolute;
