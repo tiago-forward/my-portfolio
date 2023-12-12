@@ -10,12 +10,14 @@
 .projetos .projetos-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(210px, 1fr));
-    grid-gap: 100px;
+    grid-gap: 78px;
     margin-bottom: 120px;
 }
 
 .projetos .projetos-container .projeto {
     position: relative;
+    border: solid 1px var(--cor-primaria);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
 .projetos .projetos-container .projeto:hover img {
@@ -23,6 +25,7 @@
 }
 
 .projetos .projetos-container .projeto h3 {
+    margin-top: 15px;
     position: absolute;
 }
 
@@ -33,15 +36,45 @@
     background-color: var(--cor-secundaria);
     top: 0;
     opacity: 0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .projetos .projetos-container .projeto .projeto-conteudo:hover {
     opacity: 0.6;
 }
 
-.projetos .projetos-container .projeto .projeto-conteudo:hover .pc a {
-    font-weight: 500;
-    opacity: 1;
+.projetos .projetos-container .projeto .projeto-conteudo a {
+    font-weight: 700;
+    color: var(--cor-branca);
+    transition: all 0.3s ease;
+}
+
+.projetos .projetos-container .projeto .projeto-conteudo a:hover {
+    margin: 5px;
+}
+
+.projetos .projetos-container .projeto .projeto-conteudo p {
+    margin: 10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.projetos .projetos-container .projeto .projeto-conteudo p::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background-color: var(--cor-primaria);
+    transition: 0.5s ease-in-out;
+}
+
+.projetos .projetos-container .projeto .projeto-conteudo p:hover::after {
+    width: 70%;
 }
 
 @media (max-width: 1340px) {
@@ -54,11 +87,19 @@
     .projetos .projetos-container {
         grid-template-columns: repeat(2, minmax(230px, 1fr));
     }
+
+    .projetos .projetos-container .projeto h3 {
+        font-size: 17px;
+    }
 }
 
 @media (max-width: 768px) {
     .projetos .projetos-container {
         grid-template-columns: repeat(1, 250px);
+    }
+
+    .projetos .projetos-container .projeto h3 {
+        font-size: 15px;
     }
 }
 
