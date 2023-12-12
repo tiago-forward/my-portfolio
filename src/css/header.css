@@ -94,8 +94,7 @@
 }
 
 .mobile-menu .nav-item .nav-link:active {
-    background-color: var(--cor-click-active);
-    color: var(--cor-branca);
+    color: var(--cor-click-active);
     padding: 10px 5px;
 }
 
