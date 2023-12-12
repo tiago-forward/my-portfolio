@@ -47,7 +47,8 @@
 }
 
 
-.habilidades .habilidades-container .informacoes .logo-habilidade i {
+.habilidades .habilidades-container .informacoes .logo-habilidade i,
+.habilidades .habilidades-container .informacoes .logo-habilidade .iconify {
     font-size: 100px;
     color: var(--cor-primaria);
     transition: 0.3s ease;
@@ -59,6 +60,7 @@
 }
 
 .habilidades .habilidades-container .informacoes:hover .logo-habilidade i,
+.habilidades .habilidades-container .informacoes:hover .logo-habilidade .iconify,
 .habilidades .habilidades-container .informacoes:hover h3 {
     color: var(--cor-secundaria);
 }
