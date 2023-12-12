@@ -105,8 +105,3 @@ body {
 .sobre {
     grid-area: sobre;
 }
-
-.footer {
-    background-color: yellowgreen;
-    grid-area: footer;
-}
