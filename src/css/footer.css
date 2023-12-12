@@ -49,3 +49,13 @@
 .footer .footer-container .footer-contatos ul li a:hover {
     color: var(--cor-branca);
 }
+
+@media (max-width: 768px) {
+    .footer .footer-container {
+        flex-direction: column;
+    }
+
+    .footer .footer-container p {
+        font-size: 12px;
+    }
+}
