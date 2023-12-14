@@ -5,10 +5,10 @@ html {
 body {
     display: grid;
     grid-template-areas: "header header header"
-        "contatos perfil perfil"
-        "contatos sobre sobre"
-        "contatos habilidades habilidades"
-        "contatos projetos projetos"
+        "contatos perfil borda"
+        "contatos sobre borda"
+        "contatos habilidades borda"
+        "contatos projetos borda"
         "footer footer footer";
     grid-template-columns: 8% auto 8%;
     font-family: 'Montserrat', sans-serif;
@@ -35,6 +35,6 @@ body {
     }
 }
 
-.sobre {
-    grid-area: sobre;
+.borda {
+    grid-area: borda;
 }
