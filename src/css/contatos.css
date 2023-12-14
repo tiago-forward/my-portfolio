@@ -1,0 +1,42 @@
+.contatos {
+    /* background-color: beige; */
+    grid-area: contatos;
+    border-radius: 10px;
+}
+
+.contatos ul {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25vh;
+    margin-left: 20px;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.contatos li a i {
+    color: var(--cor-primaria);
+    transition: all 0.3s ease;
+}
+
+.contatos ul li a i:hover {
+    cursor: pointer;
+    color: var(--cor-secundaria);
+    animation: movimentacao 4s linear infinite;
+}
+
+@keyframes movimentacao {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+}
+
+@media (max-width: 375px) {
+    .contatos li a i {
+        font-size: 23px;
+    }
+}
