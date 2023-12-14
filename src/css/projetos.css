@@ -1,6 +1,5 @@
 .projetos {
     grid-area: projetos;
-    margin: 0 auto;
     padding-bottom: 120px;
 }
 
@@ -88,6 +87,7 @@
     width: 65%;
 }
 
+
 @media (max-width: 1340px) {
     .projetos .projetos-container {
         grid-template-columns: repeat(3, minmax(230px, 1fr));
@@ -129,6 +129,7 @@
 }
 
 @media (max-width: 768px) {
+    
     .projetos .projetos-container {
         grid-template-columns: repeat(1, 250px);
     }
