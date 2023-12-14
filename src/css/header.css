@@ -1,7 +1,7 @@
 .header {
     background-color: var(--cor-primaria);
     grid-area: header;
-    padding: 10px;
+    padding: 10px 20px;
     box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -116,7 +116,7 @@
     }
 
     .header .nav-bar .logo .logo-titulo {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .header .nav-bar .nav-list ul .nav-item .nav-link {
@@ -131,10 +131,7 @@
         position: fixed;
         width: 100vw;
         z-index: 1;
-    }
-
-    .header .nav-bar .logo .logo-titulo {
-        font-size: 20px;
+        padding: 10px 25px 10px 5px;
     }
 
     .nav-item {

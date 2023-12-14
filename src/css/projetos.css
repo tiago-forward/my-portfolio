@@ -1,11 +1,6 @@
 .projetos {
     grid-area: projetos;
-    padding-bottom: 120px;
     margin: 0 auto;
-}
-
-.projetos .title {
-    margin-bottom: 150px;
 }
 
 .projetos .projetos-container {
@@ -25,7 +20,7 @@
     opacity: 0.8;
 }
 
-.projetos .projetos-container .projeto h3 {
+.projetos .projetos-container .projeto .title-project {
     margin-top: 15px;
     position: absolute;
 }
@@ -100,7 +95,7 @@
         grid-template-columns: repeat(2, minmax(230px, 1fr));
     }
 
-    .projetos .projetos-container .projeto h3 {
+    .projetos .projetos-container .projeto .title-project {
         font-size: 17px;
     }
 
@@ -135,7 +130,7 @@
         grid-template-columns: repeat(1, 250px);
     }
 
-    .projetos .projetos-container .projeto h3 {
+    .projetos .projetos-container .projeto .title-project {
         font-size: 15px;
     }
 }

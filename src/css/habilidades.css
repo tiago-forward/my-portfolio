@@ -3,16 +3,13 @@
     margin: 0 auto;
 }
 
-.habilidades .title {
-    margin-bottom: 150px;
-}
-
 .habilidades .habilidades-container {
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin: 0 auto;
     gap: 30px;
     flex-wrap: wrap;
-    margin-bottom: 150px;
 }
 
 .habilidades .habilidades-container .informacoes {
@@ -64,10 +61,6 @@
 .habilidades .habilidades-container .informacoes:hover h3 {
     color: var(--cor-secundaria);
 }
-
-/* .habilidades .habilidades-container .informacoes:hover .icon {
-    color: var(--cor-secundaria);
-} */
 
 .habilidades .habilidades-container .informacoes p{
     font-size: 18px;

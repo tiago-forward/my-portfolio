@@ -32,7 +32,7 @@
     height: 2px;
     bottom: -12px;
     left: 0;
-    background-color: aqua;
+    background-color: var(--cor-borda-dinamica);
 }
 
 .footer .footer-container .footer-contatos ul {
@@ -48,6 +48,10 @@
 
 .footer .footer-container .footer-contatos ul li a:hover {
     color: var(--cor-branca);
+}
+
+.footer .footer-container .footer-contatos ul li a:active {
+    color: var(--cor-click-active);
 }
 
 @media (max-width: 768px) {

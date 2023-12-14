@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="src/fonts/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variable.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/global.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/contatos.css">
     <link rel="stylesheet" href="src/css/perfil.css">
@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <section class="contatos">
+    <section class="borda-lateral-contatos">
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank">
@@ -90,38 +90,15 @@
             </div>
         </div>
         <div class="nome-dev">
-            <h2 class="title">Tiago Lacerda Ferreira</h2>
+            <h2 class="title-name">Tiago Lacerda Ferreira</h2>
             <p class="dev">Desenvolvedor Front-End</p>
         </div>
     </section>
 
-    <!-- <section class="designer">
-        <div class="lado">
-
-            <span class="linha-lado"></span>
-            PERFIL
-        </div>
-        <div class="lado">
-
-            <span class="linha-lado"></span>
-            SOBRE
-        </div>
-        <div class="lado">
-
-            <span class="linha-lado"></span>
-            HABILIDADES
-        </div>
-        <div class="lado">
-
-            <span class="linha-lado"></span>
-            PROJETOS
-        </div>
-    </section> -->
-
     <section class="sobre" id="sobre-mim">
         <h2 class="title">Sobre</h2>
         <div class="sobre-container">
-            <div class="sobre-image">
+            <div class="image-setup">
                 <img src="src/images/setup.jpeg" alt="setup de trabalho" width="660">
             </div>
             <div class="sobre-conteudo">
@@ -183,7 +160,10 @@
                     <span class="iconify" data-icon="file-icons:adobe-lightroom"></span>
                 </div>
                 <h3>Adobe Lightroom</h3>
-                <p>Software de edição e organização de fotos, ajustando cor, iluminação, contraste, tonalidade e muitos outros detalhes das fotos de forma não destrutiva, ou seja, sem alterar o arquivo original. Isso permite uma grande flexibilidade e a possibilidade de experimentar diferentes edições sem comprometer a qualidade da imagem original.</p>
+                <p>Software de edição e organização de fotos, ajustando cor, iluminação, contraste, tonalidade e muitos
+                    outros detalhes das fotos de forma não destrutiva, ou seja, sem alterar o arquivo original. Isso
+                    permite uma grande flexibilidade e a possibilidade de experimentar diferentes edições sem
+                    comprometer a qualidade da imagem original.</p>
             </div>
         </div>
     </section>
@@ -191,48 +171,41 @@
     <section class="projetos" id="meus-projetos">
         <h2 class="title">Projetos</h2>
         <div class="projetos-container">
-
             <div class="projeto">
-                <div>
-                    <img src="src/gifs/portfolio-desenvolvimento.gif" alt="" width="350px" height="150px">
-                    <h3>Portfolio | Projeto pessoal</h3>
-                    <div class="projeto-conteudo">
-                        <p><a href="https://tiago-forward.github.io/my-portfolio/" target="_blank">GitHub Pages</a></p>
-                        <p><a href="https://github.com/tiago-forward/my-portfolio" target="_blank">GitHub Code</a></p>
-                    </div>  
+                <img src="src/gifs/portfolio-desenvolvimento.gif" alt="gif portfolio" width="350px" height="150px">
+                <h3 class="title-project">Portfolio | Projeto pessoal</h3>
+                <div class="projeto-conteudo">
+                    <p><a href="https://tiago-forward.github.io/my-portfolio/" target="_blank">GitHub Pages</a></p>
+                    <p><a href="https://github.com/tiago-forward/my-portfolio" target="_blank">GitHub Code</a></p>
                 </div>
             </div>
 
             <div class="projeto">
-                <div>
-                    <img src="src/gifs/huddle-lading-page.gif" alt="" width="350px" height="150px">
-                    <h3>Frontend Mentor | Huddle landing page</h3>
-                    <div class="projeto-conteudo">
-                        <p class="git-pages"><a href="https://tiago-forward.github.io/desafio-huddle-landing-page-with-single-introductory-section-master/" target="_blank">GitHub Pages</a></p>
-                        <p><a href="https://github.com/tiago-forward/desafio-huddle-landing-page-with-single-introductory-section-master/tree/main" target="_blank">GitHub Code</a></p>
-                    </div>
+                <img src="src/gifs/huddle-lading-page.gif" alt="gif huddle lading page" width="350px" height="150px">
+                <h3 class="title-project">Frontend Mentor | Huddle landing page</h3>
+                <div class="projeto-conteudo">
+                    <p class="git-pages"><a href="https://tiago-forward.github.io/desafio-huddle-landing-page-with-single-introductory-section-master/" target="_blank">GitHub Pages</a></p>
+                    <p><a href="https://github.com/tiago-forward/desafio-huddle-landing-page-with-single-introductory-section-master/tree/main" target="_blank">GitHub Code</a></p>
                 </div>
             </div>
 
             <div class="projeto">
-                <div>
-                    <img src="src/gifs/qr code component.gif" alt="" width="350px" height="150px">
-                    <h3>Frontend Mentor - QR code component</h3>
-                    <div class="projeto-conteudo">
-                        <p><a href="https://tiago-forward.github.io/desafio-qr-code-component-main/" target="_blank">GitHub Pages</a></p>
-                        <p><a href="https://github.com/tiago-forward/desafio-qr-code-component-main" target="_blank">GitHub Code</a></p>
-                    </div>
+                <img src="src/gifs/qr code component.gif" alt="gif qr code component" width="350px" height="150px">
+                <h3 class="title-project">Frontend Mentor - QR code component</h3>
+                <div class="projeto-conteudo">
+                    <p><a href="https://tiago-forward.github.io/desafio-qr-code-component-main/" target="_blank">GitHub
+                            Pages</a></p>
+                    <p><a href="https://github.com/tiago-forward/desafio-qr-code-component-main" target="_blank">GitHub
+                            Code</a></p>
                 </div>
             </div>
 
             <div class="projeto">
-                <div>
-                    <img src="src/gifs/desktop-lista-imagens.gif" alt="" width="350px" height="150px">
-                    <h3>DevQuest - Desafio Lista de Imagens</h3>
-                    <div class="projeto-conteudo">
-                        <p><a href="https://tiago-forward.github.io/desafio-lista-de-imagens/" target="_blank">GitHub Pages</a></p>
-                        <p><a href="https://github.com/tiago-forward/desafio-lista-de-imagens" target="_blank">GitHub Code</a></p>
-                    </div>
+                <img src="src/gifs/desktop-lista-imagens.gif" alt="gif lista imagens" width="350px" height="150px">
+                <h3 class="title-project">DevQuest - Desafio Lista de Imagens</h3>
+                <div class="projeto-conteudo">
+                    <p><a href="https://tiago-forward.github.io/desafio-lista-de-imagens/" target="_blank">GitHub Pages</a></p>
+                    <p><a href="https://github.com/tiago-forward/desafio-lista-de-imagens" target="_blank">GitHub Code</a></p>
                 </div>
             </div>
         </div>

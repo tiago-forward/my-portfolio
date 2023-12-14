@@ -5,20 +5,29 @@ html {
 body {
     display: grid;
     grid-template-areas: "header header header"
-        "contatos perfil borda"
-        "contatos sobre borda"
-        "contatos habilidades borda"
-        "contatos projetos borda"
+        "borda-contatos perfil borda"
+        "borda-contatos sobre borda"
+        "borda-contatos habilidades borda"
+        "borda-contatos projetos borda"
         "footer footer footer";
     grid-template-columns: 8% auto 8%;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--cor-background);
 }
 
-.title {
-    font-size: 50px;
+body section {
+    padding-bottom: 15%;
+}
+
+section .title {
+    font-size: 70px;
     text-align: center;
+    margin-bottom: 15%;
     color: var(--cor-primaria);
+}
+
+.borda {
+    grid-area: borda;
 }
 
 @media (max-width: 1340px) {
@@ -30,11 +39,11 @@ body {
 }
 
 @media (max-width: 768px) {
-    .title {
-        font-size: 30px;
+    section .title {
+        font-size: 40px;
     }
 }
 
-.borda {
-    grid-area: borda;
+@media (max-width: 375px) {
+
 }

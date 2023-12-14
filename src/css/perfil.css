@@ -18,7 +18,7 @@
 }
 
 .perfil .foto-perfil .sobra-foto-perfil {
-    background-color: var(--cor-background-perfil);
+    background-color: var(--cor-background-shadow);
     position: relative;
     width: 455px; 
     height: 580px;
@@ -31,6 +31,12 @@
     border-radius: 50px;
     margin: 50px;
     box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.3);
+}
+
+.perfil .title-name {
+    font-size: 50px;
+    text-align: center;
+    color: var(--cor-primaria);
 }
 
 .perfil .nome-dev {

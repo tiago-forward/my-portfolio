@@ -1,41 +1,34 @@
 .sobre {
     grid-area: sobre;
     margin: 0 auto;
-    padding-bottom: 150px;
-}
-
-.sobre .title {
-    margin-bottom: 150px;
 }
 
 .sobre .sobre-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 60px;
+    justify-content: space-around;
 }
 
-.sobre .sobre-container .sobre-image {
-    background-color: var(--cor-background-perfil);
+.sobre .sobre-container .image-setup {
+    background-color: var(--cor-background-shadow);
     position: relative;
-    max-width: 680px; 
-    max-height: 550px;
+    min-width: 500px; 
     border-radius: 20px;
     padding: 0px 20px;
 }
 
-.sobre .sobre-container .sobre-image img {
+.sobre .sobre-container .image-setup img {
     border-radius: 20px;
     margin: 20px 0px -20px -20px;
     box-shadow:-10px 15px 20px 0px rgba(0,0,0,0.3);
 }
 
 .sobre .sobre-container .sobre-conteudo {
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .sobre .sobre-container .sobre-conteudo p {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -44,40 +37,38 @@
         flex-direction: column;
     }
 
-    .sobre .sobre-container .sobre-image {
+    .sobre .sobre-container .image-setup {
         margin-bottom: 60px;
-    }
-
-    .sobre .sobre-container .sobre-image img {
-        width: 550px;
-    }
-
-    .sobre .sobre-container .sobre-conteudo {
-        width: 600px;
     }
 }
 
 @media (max-width: 768px) {
 
-    .sobre .sobre-container .sobre-image {
-        max-width: 250px; 
-        margin: 40px -10px;
+    .sobre .sobre-container .image-setup {
+        min-width: 250px;
+        margin-left: 30px;
     }
 
-    .sobre .sobre-container .sobre-image img {
-        max-width: 110%;
+    .sobre .sobre-container .image-setup img {
+        min-width: 250px;
         margin: 20px 0px -20px -20px;
         box-shadow: -7px 12px 20px 0px rgba(0,0,0,0.3);
     }
 
     .sobre .sobre-container .sobre-conteudo {
-        width: 300px;
+        min-width: 250px;
+        margin-left: 30px;
     }
-
 }
 
 @media (max-width: 375px) {
-    .sobre .sobre-container .sobre-image img {
+
+    .sobre .sobre-container .image-setup {
+        min-width: 200px;
+        margin-left: 25px;
+    }
+
+    .sobre .sobre-container .image-setup img {
         width: 200px;
         box-shadow: -4px 9px 20px 0px rgba(0,0,0,0.3);
     }

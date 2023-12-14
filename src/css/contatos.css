@@ -1,28 +1,30 @@
-.contatos {
-    /* background-color: beige; */
-    grid-area: contatos;
-    border-radius: 10px;
+.borda-lateral-contatos {
+    grid-area: borda-contatos;
 }
 
-.contatos ul {
+.borda-lateral-contatos ul {
     position: fixed;
     display: flex;
     flex-direction: column;
-    padding-top: 25vh;
+    padding-top: 30vh;
     margin-left: 20px;
     gap: 30px;
     font-size: 30px;
 }
 
-.contatos li a i {
+.borda-lateral-contatos li a i {
     color: var(--cor-primaria);
     transition: all 0.3s ease;
 }
 
-.contatos ul li a i:hover {
+.borda-lateral-contatos ul li a i:hover {
     cursor: pointer;
     color: var(--cor-secundaria);
     animation: movimentacao 4s linear infinite;
+}
+
+.borda-lateral-contatos ul li a i:active {
+    color: var(--cor-click-active)
 }
 
 @keyframes movimentacao {
@@ -33,10 +35,20 @@
     25% {
         transform: translateX(5px);
     }
+
+    45% {
+        transform: translateX(5px);
+    }
+}
+
+@media (max-width: 768px) {
+    .borda-lateral-contatos li a i {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 375px) {
-    .contatos li a i {
-        font-size: 23px;
+    .borda-lateral-contatos li a i {
+        font-size: 20px;
     }
 }
