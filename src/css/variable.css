@@ -1,9 +1,9 @@
 :root {
     --cor-primaria: #25272a;
     --cor-secundaria: #0064C2;
+    --cor-terciaria: ;
     --cor-branca: #fff;
-    --cor-background: #e0e2eb;
-    --cor-background-shadow: #a7adc04d;
+    --cor-background-shadow: #4a577f4d;
     --cor-borda-dinamica: #0064C2;
     --cor-click-active: #83f7f7;
     --cor-hover: #b8bac8;
