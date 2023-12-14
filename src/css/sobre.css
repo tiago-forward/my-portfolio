@@ -1,3 +1,9 @@
+.sobre {
+    grid-area: sobre;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
 .sobre .title {
     margin-bottom: 150px;
 }
