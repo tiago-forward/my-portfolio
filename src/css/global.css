@@ -27,13 +27,18 @@ body section .title {
     color: var(--cor-primaria);
 }
 
-body section .background-color-container {
-    border-radius: 10px;
-}
-
 .borda {
     grid-area: borda;
 }
+
+
+body section {
+    visibility: hidden;
+}
+
+
+
+/*Responsivo*/
 
 @media (max-width: 1340px) {
 

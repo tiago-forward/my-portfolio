@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
@@ -54,7 +56,7 @@
     </header>
 
     <section class="borda-lateral-contatos">
-        <ul>
+        <ul class="efeito-rolagem-borda">
             <li>
                 <a href="https://www.linkedin.com/in/tiago-lacerda-devfrontend/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i>
@@ -79,29 +81,29 @@
     </section>
 
     <section class="perfil">
-        <div class="wellcome">
+        <div class="wellcome efeito-rolagem-perfil">
             <p>Seja bem vindo(a) ao meu portfolio</p>
         </div>
-        <div class="foto-perfil-container">
+        <div class="foto-perfil-container efeito-rolagem-perfil">
             <div class="foto-perfil">
                 <div class="sobra-foto-perfil">
                     <img src="src/images/foto-perfil.jpeg" alt="foto de perfil" width="455" height="580">
                 </div>
             </div>
         </div>
-        <div class="nome-dev">
+        <div class="nome-dev efeito-rolagem-perfil">
             <h2 class="title-name">Tiago Lacerda Ferreira</h2>
             <p class="dev">Desenvolvedor Front-End</p>
         </div>
     </section>
 
     <section class="sobre" id="sobre-mim">
-        <h2 class="title">Sobre</h2>
+        <h2 class="title efeito-rolagem-titulo">Sobre</h2>
         <div class="sobre-container">
-            <div class="image-setup">
+            <div class="image-setup efeito-rolagem-conteudo">
                 <img src="src/images/setup.jpeg" alt="setup de trabalho" width="660">
             </div>
-            <div class="sobre-conteudo">
+            <div class="sobre-conteudo efeito-rolagem-conteudo-sobre">
                 <p><strong>Sou apaixonado por computadores desde os meus 12 anos</strong>. Desde então, sempre me
                     encantei ao ver um site bonito e bem estilizado na web, entre outros layouts. Durante minha formação
                     em Análise e Desenvolvimento de Sistemas, tive a oportunidade de conhecer a programação, e a área de
@@ -112,8 +114,8 @@
     </section>
 
     <section class="habilidades" id="minhas-habilidades">
-        <h2 class="title">Habilidades</h2>
-        <div class="habilidades-container">
+        <h2 class="title efeito-rolagem-titulo">Habilidades</h2>
+        <div class="habilidades-container efeito-rolagem-conteudo">
             <div class="card-container">
                 <div class="logo-habilidade">
                     <i class="fa-brands fa-html5"></i>
@@ -168,10 +170,10 @@
         </div>
     </section>
 
-    <section class="projetos " id="meus-projetos">
-        <h2 class="title">Projetos</h2>
+    <section class="projetos" id="meus-projetos">
+        <h2 class="title efeito-rolagem-titulo">Projetos</h2>
         <div class="projetos-container">
-            <div class="projeto">
+            <div class="projeto efeito-rolagem-projeto1">
                 <img src="src/gifs/portfolio-desenvolvimento.gif" alt="gif portfolio" width="350px" height="150px">
                 <h3 class="title-project">Portfolio | Projeto pessoal</h3>
                 <div class="projeto-conteudo">
@@ -180,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="projeto">
+            <div class="projeto efeito-rolagem-projeto2">
                 <img src="src/gifs/huddle-lading-page.gif" alt="gif huddle lading page" width="350px" height="150px">
                 <h3 class="title-project">Frontend Mentor | Huddle landing page</h3>
                 <div class="projeto-conteudo">
@@ -189,7 +191,7 @@
                 </div>
             </div>
 
-            <div class="projeto">
+            <div class="projeto efeito-rolagem-projeto3">
                 <img src="src/gifs/qr code component.gif" alt="gif qr code component" width="350px" height="150px">
                 <h3 class="title-project">Frontend Mentor - QR code component</h3>
                 <div class="projeto-conteudo">
@@ -200,7 +202,7 @@
                 </div>
             </div>
 
-            <div class="projeto">
+            <div class="projeto efeito-rolagem-projeto4">
                 <img src="src/gifs/desktop-lista-imagens.gif" alt="gif lista imagens" width="350px" height="150px">
                 <h3 class="title-project">DevQuest - Desafio Lista de Imagens</h3>
                 <div class="projeto-conteudo">
@@ -242,7 +244,8 @@
         </div>
     </footer>
 
-    <script src="src/js/script.js"></script>
+    <script src="src/js/menu.js"></script>
+    <script src="src/js/revael.js"></script>
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
 </body>
 
