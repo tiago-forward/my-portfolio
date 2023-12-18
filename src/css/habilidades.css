@@ -7,9 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
     gap: 30px;
+    padding: 10px;
     flex-wrap: wrap;
+    background-color: var(--cor-background-container);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .habilidades .habilidades-container .card-container {
@@ -68,7 +71,10 @@
 
 @media (max-width: 768px) {
     .habilidades .habilidades-container {
-        width: 250px;
+        min-width: 250px;
+        min-width: 200px;
+        padding: 30px;
+        margin: 10px;
     }
     
     .habilidades .habilidades-container .card-container h3 {
@@ -82,6 +88,7 @@
 
 @media (max-width: 375px) {
     .habilidades .habilidades-container {
-        width: 200px;
+        min-width: 200px;
+        margin: 5px;
     }
 }

@@ -6,7 +6,7 @@
 }
 
 .perfil .wellcome {
-    font-size: 40px;
+    font-size: 35px;
     padding: 70px 0px 0 0;
     text-align: end;
     color: var(--cor-primaria);
@@ -34,7 +34,7 @@
 }
 
 .perfil .title-name {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: var(--cor-primaria);
 }
@@ -49,7 +49,7 @@
 }
 
 .perfil .nome-dev .dev {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     color: var(--cor-primaria);
     font-weight: 500;
@@ -82,7 +82,7 @@
     }
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
     .perfil {
         flex-direction: column;
     }
@@ -104,8 +104,20 @@
         margin: 30px;
     }
 
+    .perfil .title-name {
+        font-size: 40px;
+    }
+
     .perfil .nome-dev {
-        margin-top: 60px;
+        margin-top: 30px;
+    }
+
+    .perfil .title-name {
+        font-size: 30px;
+    }
+
+    .perfil .nome-dev .dev {
+        font-size: 25px;
     }
 }
 
@@ -128,11 +140,15 @@
         margin: 20px;
     }
 
+    .perfil .title-name {
+        font-size: 25px;
+    }
+
     .perfil .nome-dev .dev {
         font-size: 20px;
     }
 }
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     
-}
+} */
