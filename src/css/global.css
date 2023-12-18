@@ -16,10 +16,6 @@ body {
     background: linear-gradient(120deg, rgba(0,100,194,0.7) 0%, rgba(208,210,218,1) 50%, rgba(0,100,194,0.7) 100%);
 }
 
-body section {
-    padding-bottom: 15%;
-}
-
 body section .title {
     font-size: 70px;
     text-align: center;

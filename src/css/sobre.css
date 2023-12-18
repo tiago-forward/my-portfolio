@@ -1,6 +1,8 @@
 .sobre {
     grid-area: sobre;
     margin: 0 auto;
+    min-height: 100vh;
+    padding: 100px 0% 20px;
 }
 
 .sobre .sobre-container {
