@@ -20,6 +20,7 @@
 .borda-lateral-contatos ul li a i:hover {
     cursor: pointer;
     color: var(--cor-secundaria);
+    border-radius: 50%;
     animation: movimentacao 4s linear infinite;
 }
 

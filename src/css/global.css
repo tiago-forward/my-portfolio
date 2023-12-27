@@ -51,13 +51,36 @@ body section .title {
     transition: 1s ease-in-out;
 }
 
-.borda-voltar-topo .icon-topo .fa-solid {
+.borda-voltar-topo .icon-topo i {
     font-size: 40px;
     color: var(--cor-borda-dinamica);
 }
 
+.borda-voltar-topo .icon-topo i:hover {
+    color: var(--cor-branca);
+    box-shadow: 0px 0px 20px 0px rgba(0,100,194,0.7);
+}
+.borda-voltar-topo .icon-topo i:active {
+    color: var(--cor-click-active);
+}
+
 .mostrar-icone-topo .icon-topo  {
     right: 10px;
+}
+
+/*Modo Dark*/
+
+body.dark {
+    background: rgb(1,38,73);
+    background: linear-gradient(120deg, rgba(1,38,73,0.7) 0%, rgba(67,134,200,1) 50%, rgba(1,38,73,1) 100%);
+}
+
+body.dark .perfil .nome-dev .title-name,
+body.dark .perfil .nome-dev .dev,
+body.dark h2,
+body.dark h3,
+body.dark p {
+    color: var(--cor-background-light);
 }
 
 /*Responsivo*/

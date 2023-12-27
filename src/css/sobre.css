@@ -38,6 +38,20 @@
     text-align: center;
 }
 
+/*Modo Dark*/
+
+.sobre.dark .campo-title {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+.sobre.dark .sobre-container {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+/*Responsivo*/
+
 @media (max-width: 1024px) {
     .sobre .sobre-container {
         flex-direction: column;

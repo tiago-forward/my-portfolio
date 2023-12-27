@@ -1,11 +1,13 @@
 :root {
     --cor-primaria: #25272a;
     --cor-secundaria: #0064C2;
-    --cor-terciaria: ;
-    --cor-branca: #fff;
+    --cor-terciaria: #e1e3fb;
+    --cor-branca: #ffff;
     --cor-background-shadow: #4a577f4d;
     --cor-borda-dinamica: #0064C2;
     --cor-click-active: #83f7f7;
     --cor-hover: #b8bac8;
     --cor-background-container: #e1e3fb;
+    --cor-background-dark: #405267;
+    --cor-background-light: #d8e7f9;
 }

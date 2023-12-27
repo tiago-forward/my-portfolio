@@ -1,6 +1,5 @@
 .habilidades {
     grid-area: habilidades;
-    margin: 0 auto;
     min-height: 100vh;
     padding: 100px 0% 20px;
 }
@@ -71,6 +70,20 @@
 .habilidades .habilidades-container .card-container p{
     font-size: 18px;
 }
+
+/*Modo Dark*/
+
+.habilidades.dark .habilidades-container {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+.habilidades.dark .campo-title {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+/*Responsivo*/
 
 @media (max-width: 768px) {
     .habilidades .habilidades-container {

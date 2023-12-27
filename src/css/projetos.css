@@ -1,6 +1,5 @@
 .projetos {
     grid-area: projetos;
-    margin: 0 auto;
     min-height: 100vh;
     padding: 100px 0% 20px;
 }
@@ -14,12 +13,11 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     margin: 10px;
-    padding: 30px 18px 90px 18px;
+    padding: 30px 18px 110px 18px;
 }
 
 .projetos .projetos-container .projeto {
     position: relative;
-    border: solid 1px var(--cor-primaria);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -28,7 +26,7 @@
 }
 
 .projetos .projetos-container .projeto .title-project {
-    margin-top: 15px;
+    padding-top: 30px;
     position: absolute;
 }
 
@@ -90,11 +88,24 @@
     width: 65%;
 }
 
+/*Modo Dark*/
+
+.projetos.dark .projetos-container {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+.projetos.dark .campo-title {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+/*Responsivo*/
 
 @media (max-width: 1340px) {
     .projetos .projetos-container {
         grid-template-columns: repeat(3, minmax(230px, 1fr));
-        padding: 30px 0px 80px 0px;
+        padding: 30px 0px 100px 0px;
     }
 }
 

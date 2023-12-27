@@ -11,7 +11,7 @@
 .header .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header .nav-bar .logo a {
@@ -67,6 +67,26 @@
     width: 100%;
 }
 
+.header .nav-bar .trilho {
+    width: 60px;
+    height: 25px;
+    position: relative;
+    background-color: var(--cor-terciaria);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header .nav-bar .trilho .indicador {
+    position: absolute;
+    background-color: var(--cor-primaria);
+    transform: scale(0.8);
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    left: 0;
+    transition: 0.8s;
+}
+
 .mobile-menu-icon {
     display: none;
 }
@@ -104,6 +124,25 @@
     color: var(--cor-click-active);
     padding: 10px 5px;
 }
+
+/*Modo Dark*/
+
+.header.dark .nav-bar .nav-list ul .nav-item .nav-link {
+    color: var(--cor-terciaria);
+    transition: 0.8s;
+}
+
+.header .nav-bar .trilho.dark {
+    background-color: var(--cor-background-dark);
+    box-shadow: 0px 0px 20px 0px rgba(0,100,194,0.7);
+}
+
+.header .nav-bar .trilho.dark .indicador {
+    background-color: var(--cor-terciaria);
+    left: 50%;
+}
+
+/*Responsivo*/
 
 @media (max-width: 1340px) {
     .header .nav-bar {
