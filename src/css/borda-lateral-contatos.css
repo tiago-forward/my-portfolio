@@ -28,6 +28,13 @@
     color: var(--cor-click-active)
 }
 
+/*Modo Dark*/
+
+.borda-lateral-contatos.dark {
+    animation: darkActive 2s steps(1) infinite;  
+    position: fixed;  
+}
+
 @keyframes movimentacao {
     0% {
         transform: translateX(0);

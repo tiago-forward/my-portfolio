@@ -127,6 +127,10 @@
 
 /*Modo Dark*/
 
+.header.dark {
+    animation: darkActive 2s steps(1) infinite;
+}
+
 .header.dark .nav-bar .nav-list ul .nav-item .nav-link {
     color: var(--cor-terciaria);
     transition: 0.8s;
@@ -135,6 +139,7 @@
 .header .nav-bar .trilho.dark {
     background-color: var(--cor-background-dark);
     box-shadow: 0px 0px 20px 0px rgba(0,100,194,0.7);
+    animation: darkActive 2s steps(1) infinite;
 }
 
 .header .nav-bar .trilho.dark .indicador {

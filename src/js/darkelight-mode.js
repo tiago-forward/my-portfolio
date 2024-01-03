@@ -4,7 +4,11 @@ const sobre = document.querySelector('.sobre')
 const habilidade = document.querySelector('.habilidades')
 const projeto = document.querySelector('.projetos')
 const body = document.querySelector('body')
-
+const bordaContatos = document.querySelector('.borda-lateral-contatos')
+const footerContatos = document.querySelector('.footer-contatos')
+const iconeVoltarTopo = document.querySelector('.icon-topo')
+let audioDark = document.getElementById('myAudioDark')
+let audioLight = document.getElementById('myAudioLight')
 
 trilho.addEventListener('click', () => {
     trilho.classList.toggle('dark')
@@ -13,4 +17,7 @@ trilho.addEventListener('click', () => {
     habilidade.classList.toggle('dark')
     projeto.classList.toggle('dark')
     body.classList.toggle('dark')
+    bordaContatos.classList.toggle('dark')
+    footerContatos.classList.toggle('dark')
+    iconeVoltarTopo.classList.toggle('dark')
 })
