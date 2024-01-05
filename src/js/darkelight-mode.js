@@ -7,8 +7,6 @@ const body = document.querySelector('body')
 const bordaContatos = document.querySelector('.borda-lateral-contatos')
 const footerContatos = document.querySelector('.footer-contatos')
 const iconeVoltarTopo = document.querySelector('.icon-topo')
-let audioDark = document.getElementById('myAudioDark')
-let audioLight = document.getElementById('myAudioLight')
 
 trilho.addEventListener('click', () => {
     trilho.classList.toggle('dark')

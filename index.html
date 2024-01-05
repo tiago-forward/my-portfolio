@@ -46,6 +46,18 @@
 
                 </div>
             </div>
+            <div class="button-musica">
+                <div class="button-musica-interno">
+                    <div class="linha-do-button1 desativar-musica"></div>
+                    <div class="linha-do-button2 desativar-musica"></div>
+                    <div class="linha-do-button1 desativar-musica"></div>
+                    <div class="linha-do-button2 desativar-musica"></div>
+                    <div class="linha-do-button1 desativar-musica"></div>
+                    <audio id="myAudioLight" loop>
+                        <source src="src/audio/chill-abstract-intention-12099.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
             <div class="mobile-menu-icon">
                 <button onclick="menuShow()"><img class="icon" src="src/images/menu_white_36dp.svg"></button>
             </div>
@@ -269,13 +281,7 @@
         </div>
     </footer>
 
-    <audio id="myAudioLight" loop controls>
-        <source src="src/audio/chill-abstract-intention-12099.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="myAudioDark" loop>
-        <source src="src/audio/epic-and-dramatic-109076.mp3" type="audio/mpeg">
-    </audio>
-
+    <script src="src/js/button-musica.js"></script>
     <script src="src/js/menu.js"></script>
     <script src="src/js/scroll-topo-animation.js"></script>
     <script src="src/js/revael.js"></script>
