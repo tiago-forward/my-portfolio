@@ -1,10 +1,8 @@
 .perfil {
     grid-area: perfil;
-    height: 100vh;
     display: flex;
     margin: 0 auto;
     min-height: 100vh;
-    padding: 100px 0% 20px;
 }
 
 .perfil .wellcome {
@@ -125,7 +123,6 @@
 
 @media (max-width: 768px) {
     .perfil .wellcome {
-        margin-top: 60px;
         font-size: 24px;
         text-align: center;
     }
