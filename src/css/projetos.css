@@ -25,6 +25,7 @@
 .projetos .projetos-container .listas-projetos .projeto .subtitulo-project {
     color: var(--cor-primaria);
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .projetos .projetos-container .listas-projetos .projeto .gif-projeto {
@@ -71,7 +72,8 @@
 
 .projetos .projetos-container .listas-projetos .projeto .seta-informacao p {
     color: var(--cor-primaria);
-    text-align: center;
+    text-align: end;
+    margin-bottom: 5px;
 }
 
 .projetos .projetos-container .listas-projetos .projeto .repositorio--e-page {
@@ -83,7 +85,7 @@
     cursor: pointer;
     background-color: var(--cor-background-container);
     border: 2px solid var(--cor-primaria);
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px;
     text-align: center;
     width: 150px;
@@ -97,6 +99,21 @@
 
 .projetos .projetos-container .listas-projetos .projeto .repositorio--e-page a:active {
     border-color: var(--cor-click-active);
+}
+
+/*Modo Dark*/
+
+.projetos.dark .campo-title,
+.projetos.dark .projetos-container .listas-projetos,
+.projetos.dark .projetos-container .listas-projetos .projeto .repositorio--e-page a {
+    background-color: var(--cor-background-dark);
+    transition: 0.8s;
+}
+
+.projetos.dark .projetos-container .listas-projetos .projeto .title-project,
+.projetos.dark .projetos-container .listas-projetos .projeto .subtitulo-project {
+    color: var(--cor-background-light);
+    transition: 0.8s;
 }
 
 /*Responsivo*/

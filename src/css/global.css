@@ -79,6 +79,8 @@ body.dark .perfil .nome-dev .title-name,
 body.dark .perfil .nome-dev .dev,
 body.dark h2,
 body.dark h3,
+body.dark h4,
+body.dark h5,
 body.dark p {
     color: var(--cor-background-light);
 }
