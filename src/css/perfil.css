@@ -56,6 +56,8 @@
     font-weight: 500;
 }
 
+/*Responsivo*/
+
 @media (max-width: 1340px) {
 
     .perfil {
@@ -148,7 +150,3 @@
         font-size: 20px;
     }
 }
-
-/* @media (max-width: 375px) {
-    
-} */

@@ -35,19 +35,7 @@
     position: fixed;  
 }
 
-@keyframes movimentacao {
-    0% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(5px);
-    }
-
-    45% {
-        transform: translateX(5px);
-    }
-}
+/*Responsivo*/
 
 @media (max-width: 768px) {
     .borda-lateral-contatos li a i {

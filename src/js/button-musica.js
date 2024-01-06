@@ -13,6 +13,7 @@ botao.addEventListener("click", function (){
             linha.classList.remove("desativar-musica")
             linha.classList.add("ativar-musica")
             audioLight.play()
+            audioLight.volume = 0.1
         }
     })
 

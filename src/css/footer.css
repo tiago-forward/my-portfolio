@@ -60,6 +60,7 @@
     animation: darkActive 2s steps(1) infinite;
 }
 
+/*Responsivo*/
 
 @media (max-width: 768px) {
     .footer .footer-container {
