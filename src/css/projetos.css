@@ -85,16 +85,17 @@
     cursor: pointer;
     background-color: var(--cor-background-container);
     border: 2px solid var(--cor-primaria);
-    border-radius: 30px;
+    border-radius: 50px 20px 50px 0px;
     padding: 10px;
     text-align: center;
     width: 150px;
     font-weight: 500;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .projetos .projetos-container .listas-projetos .projeto .repositorio--e-page a:hover {
-    background-color: var(--cor-terciaria);
-    border-color: rgba(0, 100, 194, 0.497);
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
 }
 
 .projetos .projetos-container .listas-projetos .projeto .repositorio--e-page a:active {
@@ -108,6 +109,11 @@
 .projetos.dark .projetos-container .listas-projetos .projeto .repositorio--e-page a {
     background-color: var(--cor-background-dark);
     transition: 0.8s;
+}
+
+.projetos.dark .projetos-container .listas-projetos .projeto .repositorio--e-page a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
 }
 
 .projetos.dark .projetos-container .listas-projetos .projeto .title-project,
