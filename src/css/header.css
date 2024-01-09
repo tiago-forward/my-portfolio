@@ -115,7 +115,7 @@
 
 .mobile-menu {
     display: none;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
     position: fixed;
     top: 77px;
     right: 0;
@@ -144,7 +144,6 @@
 
 .mobile-menu .nav-item .nav-link:active {
     color: var(--cor-click-active);
-    padding: 10px 5px;
 }
 
 /*Modo Dark*/
@@ -167,6 +166,22 @@
 .header .nav-bar .trilho.dark .indicador {
     background-color: var(--cor-terciaria);
     left: 50%;
+}
+
+.header.dark .nav-bar .nav-list ul .nav-item .nav-link:active {
+    color: var(--cor-click-active);
+}
+
+.mobile-menu.dark {
+    background-color: rgba(64, 82, 103, 0.6);
+}
+
+.mobile-menu.dark .nav-item .nav-link{
+    color: var(--cor-terciaria);
+}
+
+.mobile-menu.dark .nav-item .nav-link:active {
+    color: var(--cor-click-active);
 }
 
 /*Responsivo*/
