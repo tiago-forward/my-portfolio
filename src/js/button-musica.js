@@ -2,10 +2,11 @@ const botao = document.querySelector(".button-musica-interno")
 const linhaDoButton1 = document.querySelectorAll(".linha-do-button1")
 const linhaDoButton2 = document.querySelectorAll(".linha-do-button2")
 const audioLight = document.getElementById('myAudioLight')
+const headerTopo = document.getElementById('#header-music-topo')
 
-botao.addEventListener("click", function (){
+botao.addEventListener("click", function () {
     linhaDoButton1.forEach(linha => {
-        if (linha.classList.contains("ativar-musica")){
+        if (linha.classList.contains("ativar-musica")) {
             linha.classList.remove("ativar-musica")
             linha.classList.add("desativar-musica")
             audioLight.pause()
@@ -15,6 +16,12 @@ botao.addEventListener("click", function (){
             audioLight.play()
             audioLight.volume = 0.1
         }
+        
+    if (header.classList.contains("active-music")) {
+        header.classList.remove("active-music")
+    } else {
+        header.classList.add("active-music")
+    }
     })
 
     linhaDoButton2.forEach(linha => {

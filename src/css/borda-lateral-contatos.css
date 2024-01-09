@@ -21,7 +21,7 @@
     cursor: pointer;
     color: var(--cor-secundaria);
     border-radius: 50%;
-    animation: movimentacao 4s linear infinite;
+    animation: movimentacaoDosContatos 4s linear infinite;
 }
 
 .borda-lateral-contatos ul li a i:active {

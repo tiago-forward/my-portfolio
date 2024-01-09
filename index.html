@@ -26,7 +26,14 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="header-music-topo" class="header">
+        <div class="music-inform">
+            <p id="nome-da-musica" class="nome-da-musica">Chill Abstract (Intention) - Coma-Media</p>
+            <span class="ativar-desativar-musica">Ativer | Desativar 🎧 ⤵</span>
+            <audio id="myAudioLight" loop preload="metadata">
+                <source src="src/audio/chill-abstract-intention-12099.mp3" type="audio/mpeg">
+            </audio>
+        </div>
         <nav class="nav-bar">
             <div class="logo">
                 <a href="#">
@@ -53,9 +60,6 @@
                     <div class="linha-do-button1 desativar-musica"></div>
                     <div class="linha-do-button2 desativar-musica"></div>
                     <div class="linha-do-button1 desativar-musica"></div>
-                    <audio id="myAudioLight" loop>
-                        <source src="src/audio/chill-abstract-intention-12099.mp3" type="audio/mpeg">
-                    </audio>
                 </div>
             </div>
             <div class="mobile-menu-icon">
@@ -197,7 +201,7 @@
         </div>
         <div class="projetos-container">
             <ul class="listas-projetos">
-                <li class="projeto">
+                <li class="projeto efeito-rolagem-projeto1">
                     <h3 class="title-project">Portfolio</h3>
                     <h4 class="subtitulo-project">Projeto pessoal</h4>
                     <div class="gif-projeto">
@@ -215,7 +219,7 @@
                         <a href="https://tiago-forward.github.io/my-portfolio/" target="_blank"><p>Projeto</p></a>
                     </div>
                 </li>
-                <li class="projeto">
+                <li class="projeto efeito-rolagem-projeto2">
                     <h3 class="title-project">Desafio Verificador de Idade</h3>
                     <h4 class="subtitulo-project">Curso em Vídeo</h4>
                     <div class="gif-projeto">
@@ -233,7 +237,7 @@
                         <a href="https://tiago-forward.github.io/desafio-verificador-de-idade/" target="_blank"><p class="pro">Projeto</p></a>
                     </div>
                 </li>
-                <li class="projeto">
+                <li class="projeto efeito-rolagem-projeto3">
                     <h3 class="title-project">Huddle landing page</h3>
                     <h4 class="subtitulo-project">Frontend Mentor</h4>
                     <div class="gif-projeto">
@@ -253,7 +257,7 @@
                         target="_blank"><p>Projeto</p></a>
                     </div>
                 </li>
-                <li class="projeto">
+                <li class="projeto efeito-rolagem-projeto4">
                     <h3 class="title-project">QR code component</h3>
                     <h4 class="subtitulo-project">Frontend Mentor</h4>
                     <div class="gif-projeto">
@@ -273,48 +277,6 @@
                     </div>
                 </li>
             </ul>
-            <!-- <div class="projeto efeito-rolagem-projeto1">
-                <img src="src/gifs/portfolio-desenvolvimento.gif" alt="gif portfolio">
-                <h3 class="title-project">Portfolio | Projeto pessoal</h3>
-                <div class="projeto-conteudo">
-                    <p><a href="https://tiago-forward.github.io/my-portfolio/" target="_blank">GitHub Pages</a></p>
-                    <p><a href="https://github.com/tiago-forward/my-portfolio" target="_blank">GitHub Code</a></p>
-                </div>
-            </div> -->
-
-            <!-- <div class="projeto efeito-rolagem-projeto4">
-                <img src="src/gifs/verificador-idade.gif" alt="gif lista imagens">
-                <h3 class="title-project">Curso em Vídeo - Desafio Verificador de Idade</h3>
-                <div class="projeto-conteudo">
-                    <p><a href="https://tiago-forward.github.io/desafio-verificador-de-idade/" target="_blank">GitHub
-                            Pages</a></p>
-                    <p><a href="https://github.com/tiago-forward/desafio-verificador-de-idade" target="_blank">GitHub
-                            Code</a></p>
-                </div>
-            </div> -->
-
-            <!-- <div class="projeto efeito-rolagem-projeto2">
-                <img src="src/gifs/huddle-lading-page.gif" alt="gif huddle lading page">
-                <h3 class="title-project">Frontend Mentor | Huddle landing page</h3>
-                <div class="projeto-conteudo">
-                    <p class="git-pages"><a
-                            href="https://tiago-forward.github.io/desafio-huddle-landing-page-with-single-introductory-section-master/"
-                            target="_blank">GitHub Pages</a></p>
-                    <p><a href="https://github.com/tiago-forward/desafio-huddle-landing-page-with-single-introductory-section-master/tree/main"
-                            target="_blank">GitHub Code</a></p>
-                </div>
-            </div> -->
-
-            <!-- <div class="projeto efeito-rolagem-projeto3">
-                <img src="src/gifs/qr code component.gif" alt="gif qr code component">
-                <h3 class="title-project">Frontend Mentor - QR code component</h3>
-                <div class="projeto-conteudo">
-                    <p><a href="https://tiago-forward.github.io/desafio-qr-code-component-main/" target="_blank">GitHub
-                            Pages</a></p>
-                    <p><a href="https://github.com/tiago-forward/desafio-qr-code-component-main" target="_blank">GitHub
-                            Code</a></p>
-                </div>
-            </div> -->
         </div>
     </section>
 
@@ -363,6 +325,10 @@
     <script src="src/js/revael.js"></script>
     <script src="src/js/darkelight-mode.js"></script>
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script>
+        const playbar = document.querySelector("#play-bar")
+        console.log(playbar)
+    </script>
 </body>
 
 </html>

@@ -8,6 +8,27 @@
     z-index: 100;
 }
 
+.header .music-inform {
+    text-align: center;
+    color: var(--cor-terciaria);
+    border-bottom: 1px ridge var(--cor-terciaria);
+    margin-bottom: 10px;
+}
+
+.header .music-inform .ativar-desativar-musica {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+}
+
+.header .music-inform .nome-da-musica {
+    font-size: 15px;
+}
+
+.header.active-music .music-inform .nome-da-musica {
+    animation: musicaPlay 2s cubic-bezier(0.600, 0.600, 0.500, 1.00) infinite;
+}
+
 .header .nav-bar {
     display: flex;
     align-items: center;
@@ -178,13 +199,19 @@
         z-index: 1;
         padding: 10px 25px 10px 5px;
     }
+    
+    .header .music-inform .ativar-desativar-musica {
+        display: flex;
+        justify-content: end;
+        margin-right: 22%;
+    }
 
     .nav-item {
         display: none;
     }
 
     .mobile-menu {
-        top: 65px;
+        top: 115px;
     }
 
     .mobile-menu-icon {
