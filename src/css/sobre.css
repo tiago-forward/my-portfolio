@@ -19,12 +19,12 @@
     background-color: var(--cor-background-shadow);
     position: relative;
     min-width: 500px; 
-    border-radius: 50px 20px 50px 0px;
+    border-radius: 150px 90px 150px 0px;
     padding: 0px 18px;
 }
 
 .sobre .sobre-container .image-setup img {
-    border-radius: 50px 20px 50px 0px;
+    border-radius: 150px 90px 150px 0px;
     margin: 20px 0px -20px -20px;
     box-shadow:-10px 15px 20px 0px rgba(0,0,0,0.3);
 }

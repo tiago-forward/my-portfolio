@@ -23,13 +23,13 @@
     position: relative;
     width: 455px; 
     height: 580px;
-    border-radius: 50px;
+    border-radius: 150px 90px 150px 0px;
     margin-top: 60px;
 }
 
 .perfil .foto-perfil .sobra-foto-perfil img {
     position: relative;
-    border-radius: 50px;
+    border-radius: 150px 90px 150px 0px;
     margin: 50px;
     box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.3);
 }
