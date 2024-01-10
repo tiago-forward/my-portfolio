@@ -26,12 +26,36 @@
     border-radius: 150px 90px 150px 0px;
     margin-top: 60px;
 }
+.perfil .foto-perfil .sobra-foto-perfil .border-box-perfil {
+    position: relative;
+    width: 455px; 
+    height: 580px;
+    top: 6%;
+    left: 6%;
+    background-color: var(--cor-primaria);
+    border-radius: 150px 90px 150px 0px;
+    overflow: hidden;
+    box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.3);
+}
+
+.perfil .foto-perfil .sobra-foto-perfil .border-box-perfil::before {
+    content: '';
+    position: absolute;
+    background-color: var(--cor-secundaria);
+    width: 200%;
+    height: 250px;
+    right: -80px;
+    top: 150px;
+    animation: bordaAnimada 4s linear infinite;
+}
 
 .perfil .foto-perfil .sobra-foto-perfil img {
-    position: relative;
+    position: absolute;
+    width: 98%;
+    height: 98%;
     border-radius: 150px 90px 150px 0px;
-    margin: 50px;
-    box-shadow: 15px 15px 20px 0px rgba(0,0,0,0.3);
+    z-index: 99;
+    animation: bordaBrilhante 1s ease infinite;
 }
 
 .perfil .title-name {
@@ -78,10 +102,14 @@
         height: 380px;
     }
 
-    .perfil .foto-perfil .sobra-foto-perfil img {
-        width: 300px;
+    .perfil .foto-perfil .sobra-foto-perfil .border-box-perfil {
+        width: 300px; 
         height: 380px;
-        margin: 40px;
+    }
+    
+    .perfil .foto-perfil .sobra-foto-perfil .border-box-perfil::before {
+        right: -90px;
+        top: 80px;
     }
 }
 
@@ -94,17 +122,6 @@
         padding: 60px 0 0 0;
         text-align: center;
         font-size: 24px;
-    }
-
-    .perfil .foto-perfil .sobra-foto-perfil {
-        width: 300px; 
-        height: 380px;
-    }
-
-    .perfil .foto-perfil .sobra-foto-perfil img {
-        width: 300px;
-        height: 380px;
-        margin: 30px;
     }
 
     .perfil .title-name {
@@ -133,13 +150,18 @@
     .perfil .foto-perfil .sobra-foto-perfil {
         width: 190px; 
         height: 250px;
-        margin-top: 40px;
     }
 
-    .perfil .foto-perfil .sobra-foto-perfil img {
-        width: 190px;
+    .perfil .foto-perfil .sobra-foto-perfil .border-box-perfil {
+        width: 190px; 
         height: 250px;
-        margin: 20px;
+    }
+
+    .perfil .foto-perfil .sobra-foto-perfil .border-box-perfil::before {
+        width: 200%;
+        height: 100px;
+        right: -90px;
+        top: 80px;
     }
 
     .perfil .title-name {

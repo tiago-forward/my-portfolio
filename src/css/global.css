@@ -135,10 +135,6 @@ body.dark p {
 
 /*Responsivo*/
 
-@media (max-width: 1340px) {
-
-}
-
 @media (max-width: 1024px) {
     .borda-voltar-topo .icon-topo .fa-solid {
         font-size: 35px;
@@ -183,6 +179,28 @@ body.dark p {
 
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes bordaBrilhante {
+    0% {
+        filter: drop-shadow(0px 0px 0 rgba(3, 91, 255, 0.333)) drop-shadow(0 0 10px #008cff) 
+    }
+    50% {
+        filter: drop-shadow(0px 0px 0 rgba(3, 91, 255, 0.333)) drop-shadow(0 0 10px #8cc9fc) 
+    }
+
+    100% {
+        filter: drop-shadow(0px 0px 0 rgba(3, 91, 255, 0.333)) drop-shadow(0 0 10px #008cff) 
+    }
+}
+
+@keyframes bordaAnimada {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
 

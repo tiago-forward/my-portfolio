@@ -31,8 +31,8 @@
 /*Modo Dark*/
 
 .borda-lateral-contatos.dark {
-    animation: darkActive 2s steps(1) infinite;  
     position: fixed;  
+    animation: darkActive 2s steps(1) infinite;  
 }
 
 /*Responsivo*/
