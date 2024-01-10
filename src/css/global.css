@@ -51,10 +51,11 @@ body section .title {
 .borda-voltar-topo .icon-topo i {
     font-size: 40px;
     color: var(--cor-borda-dinamica);
+    transition: all 0.3s ease;
 }
 
 .borda-voltar-topo .icon-topo i:hover {
-    color: var(--cor-branca);
+    color: var(--cor-terciaria);
     box-shadow: 0px 0px 20px 0px rgba(0,100,194,0.7);
 }
 .borda-voltar-topo .icon-topo i:active {

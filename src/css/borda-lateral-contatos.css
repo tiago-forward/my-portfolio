@@ -13,15 +13,16 @@
 }
 
 .borda-lateral-contatos li a i {
-    color: var(--cor-primaria);
+    color: var(--cor-borda-dinamica);
     transition: all 0.3s ease;
 }
 
 .borda-lateral-contatos ul li a i:hover {
     cursor: pointer;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     border-radius: 50%;
     animation: movimentacaoDosContatos 4s linear infinite;
+    box-shadow: 20px -10px 20px 0px rgba(0,100,194,0.7);
 }
 
 .borda-lateral-contatos ul li a i:active {
