@@ -21,6 +21,81 @@
     align-items: center;
 }
 
+.footer .footer-container .formulario-container {
+    width: 350px;
+}
+
+.footer .footer-container form {
+    display: flex;
+    flex-direction: column; 
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    padding: 8px;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.4);
+}
+
+.footer .footer-container form label {
+    color: var(--cor-terciaria);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 0px 5px 5px;
+}
+
+.footer .footer-container form input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.footer .footer-container form textarea {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ffffff;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.4);
+    transition: 0.5s ease-in-out;
+    margin: 5px;
+}
+
+.footer .footer-container form input:focus,
+.footer .footer-container form textarea:focus {
+    border: 1px solid var(--cor-primaria);
+}
+
+.footer .footer-container form input::placeholder,
+.footer .footer-container form textarea::placeholder {
+    color: var(--cor-hover);
+}
+
+.footer .footer-container form button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: var(--cor-primaria);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.4);
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer .footer-container form button:active {
+    border: 1px solid var(--cor-primaria);
+    transform: scale(0.96);
+}
+
 .footer .footer-container .footer-contatos p {
     position: relative;
 }
@@ -62,9 +137,20 @@
 
 /*Responsivo*/
 
+@media (max-width: 1024px) {
+    .footer .footer-container .formulario-container {
+        width: 300px;
+    }    
+}
+
 @media (max-width: 768px) {
+    
     .footer .footer-container {
         flex-direction: column;
+    }
+
+    .footer .footer-container .formulario-container {
+        width: 270px;
     }
 
     .footer .footer-container p {
