@@ -14,7 +14,7 @@ ScrollReveal().reveal('.efeito-rolagem-borda', {
     origin: 'top',
 });
 
-ScrollReveal().reveal('.efeito-rolagem-conteudo', {
+ScrollReveal().reveal('.efeito-rolagem-left', {
     duration: 1000,
     distance: '100px',
     delay: 100,
