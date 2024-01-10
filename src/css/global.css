@@ -17,8 +17,9 @@ body {
         "footer footer footer";
     grid-template-columns: 8% auto 8%;
     font-family: 'Montserrat', sans-serif;
-    background: rgb(0,100,194);
-    background: linear-gradient(120deg, rgba(0,100,194,0.7) 0%, rgba(208,210,218,1) 50%, rgba(0,100,194,0.7) 100%);
+    background: linear-gradient(120deg, rgba(0,100,194,0.7), rgba(208,210,218,1), rgba(0,100,194,0.7), rgba(208,210,218,1));
+    background-size: 300%;
+    animation: backgroundColors 6s ease infinite;
 }
 
 body section .campo-title {
@@ -72,7 +73,9 @@ body section .title {
 
 body.dark {
     background: rgb(1,38,73);
-    background: linear-gradient(120deg, rgba(1,38,73,0.7) 0%, rgba(67,134,200,1) 50%, rgba(1,38,73,1) 100%);
+    background: linear-gradient(120deg, rgba(1,38,73,0.7), rgb(20, 40, 60), rgba(1,38,73,1), rgb(20, 40, 60));
+    background-size: 300%;
+    animation: backgroundColors 6s ease-in infinite;
 }
 
 body.dark .perfil .nome-dev .title-name,
@@ -167,6 +170,21 @@ body.dark p {
 }
 
 /*KeyFrames*/
+
+@keyframes backgroundColors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 @keyframes movimentacaoDosContatos {
     0% {
