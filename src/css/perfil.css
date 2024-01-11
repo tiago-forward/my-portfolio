@@ -87,6 +87,19 @@
     font-weight: 500;
 }
 
+.perfil .nome-dev .curriculo a {
+    color: var(--cor-secundaria);
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.perfil .nome-dev .curriculo a:hover {
+    color: var(--cor-primaria);
+}
+
+.perfil .nome-dev .curriculo a:active {
+    color: var(--cor-click-active);
+}
+
 /*Responsivo*/
 
 @media (max-width: 1340px) {
