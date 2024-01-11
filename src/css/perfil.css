@@ -10,10 +10,9 @@
     font-size: 35px;
     padding: 70px 0px 0 0;
     text-align: end;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
     color: var(--cor-primaria);
-    font-weight: 500;
-    background-position-y: 200px;
-    background-position-x: 80%;
 }
 
 .perfil .foto-perfil {
@@ -66,6 +65,8 @@
     font-size: 40px;
     text-align: center;
     color: var(--cor-primaria);
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
 }
 
 .perfil .nome-dev {
@@ -75,6 +76,8 @@
     align-items: center;
     justify-content: center;
     padding-left: 120px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
 }
 
 .perfil .nome-dev .dev {
