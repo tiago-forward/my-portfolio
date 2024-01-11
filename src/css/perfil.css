@@ -12,7 +12,10 @@
     text-align: end;
     color: var(--cor-primaria);
     font-weight: 500;
+    background-position-y: 200px;
+    background-position-x: 80%;
 }
+
 .perfil .foto-perfil {
     display: flex;
     justify-content: center;
@@ -24,8 +27,9 @@
     width: 455px; 
     height: 580px;
     border-radius: 150px 90px 150px 0px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
+
 .perfil .foto-perfil .sobra-foto-perfil .border-box-perfil {
     position: relative;
     width: 455px; 
