@@ -42,35 +42,6 @@ ScrollReveal().reveal('.efeito-rolagem-conteudo-sobre', {
     origin: 'right'
 });
 
-ScrollReveal().reveal('.efeito-rolagem-projeto1', {
-    duration: 1000,
-    distance: '100px',
-    delay: 100,
-    origin: 'bottom'
-});
-
-ScrollReveal().reveal('.efeito-rolagem-projeto2', {
-    duration: 1000,
-    distance: '100px',
-    delay: 400,
-    origin: 'bottom'
-});
-
-ScrollReveal().reveal('.efeito-rolagem-projeto3', {
-    duration: 1000,
-    distance: '100px',
-    delay: 700,
-    origin: 'bottom'
-});
-
-ScrollReveal().reveal('.efeito-rolagem-projeto4', {
-    duration: 1000,
-    distance: '100px',
-    delay: 1000,
-    origin: 'bottom'
-});
-
-
 if (window.matchMedia("(max-width: 1340px)").matches) {
     ScrollReveal().reveal('.efeito-rolagem-perfil', {
         distance: '50px',
@@ -102,25 +73,6 @@ if (window.matchMedia("(max-width: 1340px)").matches) {
         origin: 'bottom'
     });
     
-    ScrollReveal().reveal('.efeito-rolagem-projeto1', {
-        distance: '50px',
-        origin: 'bottom'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto2', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto3', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto4', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
 } if (window.matchMedia("(max-width: 1024px)").matches) {
     ScrollReveal().reveal('.efeito-rolagem-perfil', {
         distance: '50px',
@@ -152,25 +104,6 @@ if (window.matchMedia("(max-width: 1340px)").matches) {
         origin: 'bottom'
     });
     
-    ScrollReveal().reveal('.efeito-rolagem-projeto1', {
-        distance: '50px',
-        origin: 'bottom'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto2', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto3', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto4', {
-        distance: '50px',
-        origin: 'bottom'    
-    });
 } if (window.matchMedia("(max-width: 768px)").matches) {
     ScrollReveal().reveal('.efeito-rolagem-perfil', {
         distance: '50px',
@@ -198,26 +131,6 @@ if (window.matchMedia("(max-width: 1340px)").matches) {
     });
 
     ScrollReveal().reveal('.efeito-rolagem-conteudo-sobre', {
-        distance: '50px',
-        origin: 'top'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto1', {
-        distance: '50px',
-        origin: 'top'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto2', {
-        distance: '50px',
-        origin: 'top'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto3', {
-        distance: '50px',
-        origin: 'top'
-    });
-    
-    ScrollReveal().reveal('.efeito-rolagem-projeto4', {
         distance: '50px',
         origin: 'top'
     });
