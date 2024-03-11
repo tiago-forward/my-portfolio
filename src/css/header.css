@@ -21,14 +21,6 @@
     margin-right: 15px;
 }
 
-.header .music-inform .nome-da-musica {
-    font-size: 15px;
-}
-
-.header.active-music .music-inform .nome-da-musica {
-    animation: musicaPlay 2s cubic-bezier(0.600, 0.600, 0.500, 1.00) infinite;
-}
-
 .header .nav-bar {
     display: flex;
     align-items: center;

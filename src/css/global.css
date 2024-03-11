@@ -219,21 +219,6 @@ body.dark p {
     }
 }
 
-@keyframes musicaPlay {
-    0% {
-        rotate: calc(-1deg);
-    }
-
-    50% {
-        rotate: calc(1deg);
-        filter: drop-shadow(0px 0px 0 #0005) drop-shadow(0 0 0 #ffffff) brightness(1.5);
-    }
-
-    100% {
-        rotate: calc(-1deg);
-    }
-}
-
 @keyframes darkActive {
     0%
     {
